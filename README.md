@@ -2,6 +2,8 @@
  
 A browser-based Pac-Man clone built with HTML5 canvas and vanilla JavaScript.
  
+![Pac-Man screenshot](screenshot.png)
+ 
 ## Run it
  
 Open `index.html` in a browser. Keep `style.css` and `script.js` in the same folder.
