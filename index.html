@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>PAC-MAN</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="wrap">
+  <div id="title">PAC-MAN</div>
+  <div id="hud" style="width:456px;">
+    <span>SCORE: <span id="score">0</span></span>
+    <span id="lives">LIVES: ●●●</span>
+  </div>
+  <div id="canvasHolder">
+    <canvas id="game"></canvas>
+    <div id="msg">
+      <div class="big" id="msgBig">GAME OVER</div>
+      <div class="small" id="msgSmall">Press R or tap restart</div>
+      <button id="restartBtn">RESTART</button>
+    </div>
+  </div>
+  <div id="hint">Arrow keys / WASD to move &nbsp;•&nbsp; R to restart</div>
+  <div id="mobileControls">
+    <div></div><button id="btnUp">▲</button><div></div>
+    <button id="btnLeft">◀</button><div></div><button id="btnRight">▶</button>
+    <div></div><button id="btnDown">▼</button><div></div>
+  </div>
+</div>
+ 
+<script src="script.js"></script>
+</body>
+</html>
